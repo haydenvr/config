@@ -1,3 +1,7 @@
+" need to set up Vundle
+" run following in terminal:
+" git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+
 set nocompatible              " required
 filetype off                  " required
 
