@@ -32,6 +32,12 @@ Plugin 'vim-scripts/indentpython.vim'
 "Bundle 'Valloric/YouCompleteMe'
 Plugin 'scrooloose/syntastic'
 Plugin 'nvie/vim-flake8'
+" <leader><leader>e go to forward motion
+" <leaderl><leader>b go to backward motion
+Plugin 'easymotion/vim-easymotion'
+" For NERDcommenter using nested comments, use <leader>cc to comment selection
+" and <leader>cu to uncomment selection
+Plugin 'scrooloose/nerdcommenter'
 
 " add cscope database to thing
 cs a ~/aos-2016/cscope.out
@@ -145,3 +151,6 @@ nmap <C-\>d :cs find d =expand("")
 set nohlsearch
 set cursorline
 cd aos-2016
+
+let NERDRPlace=""
+let NERDLPlace="//"
