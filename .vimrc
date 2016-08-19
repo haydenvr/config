@@ -150,7 +150,7 @@ nmap <C-\>d :cs find d =expand("")
 
 set nohlsearch
 set cursorline
-cd aos-2016
+cd ~/aos-2016
 
 let NERDRPlace=""
 let NERDLPlace="//"
